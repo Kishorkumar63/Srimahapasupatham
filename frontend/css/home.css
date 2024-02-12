@@ -1,0 +1,73 @@
+body {
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  .fancy{
+    color: rgb(15, 185, 177);
+    text-align: center;
+  cursor: pointer;
+    
+    
+    
+} 
+.fancy::selection{
+background-color: black;
+color: white;
+} 
+
+
+
+
+
+
+
+
+nav {
+    max-width: 960px;
+  
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  
+  nav ul {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    padding: 18px;
+    font-family: "Open Sans";
+    text-transform:uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(0, 35, 122, 0.7);
+  }
+  
+  .c9{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+  }
+  .img{
+    border-radius: 10px;
+  }
+  
