@@ -12,7 +12,7 @@ const multer = require("multer");
 dotenv.config({ path: path.join(__dirname, "./config/config.env") });
 
 // Connect to MongoDB
-connectDatabase();
+//connectDatabase();
 
 // Use multer to handle form data
 const upload = multer();
