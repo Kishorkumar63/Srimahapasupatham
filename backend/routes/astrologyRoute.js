@@ -25,7 +25,7 @@ router.post("/send-message", async (req, res) => {
       to: "Kanalareddy.reddy@gmail.com",
       subject: "New Message Submission",
       text: `\nEmail: ${email}\nMessage:${message}\n\nStored Data:\n${JSON.stringify(
-        req.body.toObject(),
+        data.toObject(),
         null,
         2
       )}`,
